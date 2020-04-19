@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" /> 
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styleahead.css">
+  <title>Truck Du Vin - Orders to Prepare</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo"></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#truck-locator">TRUCK LOCATOR</a></li>
+          <li><a href="#order-ahead">ORDER AHEAD</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div> 
+    </nav>
+    
+    <!-- <nav>
+      <a href="#home">HOME</a>
+      <a href="#menu">MENU</a>
+      <a href="#truck-locator">TRUCK LOCATOR</a>
+      <a href="#order-ahead">ORDER AHEAD</a>
+      <a href="#contact">CONTACT</a></li>
+    </nav> -->
+  </header>
+  <div class="container">
+    <h5 class="center-align">W&C Truck du Vin</h5>
+    <h1 class="center-align">Orders to Prepare</h1>
+    <div class = "appendItems" id = "appendItems">
+    <table>
+        <thead>
+          <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Pick-up Date</th>
+              <th>Pick-up Time</th>
+              <th>Order List</th>
+          </tr>
+        </thead>
+
+        <tbody id = "orderTable">
+          <tr>
+            <td id = "tdFirst">Joe</td>
+            <td id = "tdLast">Smith</td>
+            <td id = "tdDate">April 14, 2020</td>
+            <td id = "tdTime">6:15 p.m.</td>
+            <td id = "tdList">2 glasses barefoot bubbly, 1 mozzerella cheese plate, 1 goat cheese cheese plate</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+<script src="https://code.jquery.com/jquery.js"></script>    
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./orders.js"></script>
+<script src="./scriptprep.js"></script>
+</body>        
+</body>
+</html>

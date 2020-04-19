@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    font-family: 'Playfair Display', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    padding: 1px;
+    font-family: 'Playfair Display', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: gray;
+    color: #ffffff;
+}
+
+header nav {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: center;
+    font-family: 'Playfair Display', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: rgb(82, 10, 10)
+}
+
+#submitBtn {
+    background-color: rgb(82, 10, 10)
+}
